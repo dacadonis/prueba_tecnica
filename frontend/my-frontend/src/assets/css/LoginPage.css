@@ -1,0 +1,99 @@
+
+.login-section {
+    background: linear-gradient(to right, rgba(81, 141, 79, 0.7), rgba(255, 255, 255, 0.5));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.background-image {
+    background: url('/images/login.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+
+.btn-custom {
+    background-color: #518d4f;
+    color: white;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #3d6f3f;
+    border-color: #518d4f;
+}
+
+
+.login-form .form-control {
+    border-radius: 30px;
+    padding: 15px 20px;
+}
+
+
+.login-form .form-floating > label {
+    padding: 0 1.5rem;
+}
+
+
+.icon-style {
+    width: 46px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem; 
+    color: white; 
+    background-color: #518d4f; 
+    border-radius: 50%; 
+    padding: 0.5rem; 
+    position: absolute;
+    top: 50%;
+    left: 15px; 
+    transform: translateY(-50%); 
+}
+
+
+.form-floating .form-control {
+    padding-left: 3.5rem; 
+}
+
+
+.form-floating > label {
+    position: absolute;
+    top: 50%;
+    left: 1.5rem; 
+    transform: translateY(-50%);
+    color: #6c757d;
+    transition: all 0.2s ease-out;
+}
+
+/* Posicionamiento del label cuando el campo tiene foco o valor */
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label {
+    top: -0.75rem;
+    left: 1.5rem; 
+    font-size: 75%;
+    color: #0d6efd;
+}
+
+/* Ocultar la imagen de fondo en dispositivos móviles */
+@media (max-width: 768px) {
+    .background-image {
+        display: none;
+    }
+}
+

@@ -1,0 +1,13 @@
+{   
+    "username": "testuser",
+    "email": "test@example.com",
+    "password": "testpassword",
+    "confirmar_password" : "testpassword",
+    "nombre": "test",
+    "apellido": "user",
+    "cedula_pasaporte": "465344354",
+    "direccion": "8472384732v ertwedfs sdf ",
+    "ciudad": "ferkwelrjew ",
+    "provincia": "erkwerwlerjw ",
+    "telefono": "4098409854"
+}

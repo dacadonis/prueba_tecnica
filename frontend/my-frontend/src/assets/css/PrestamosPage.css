@@ -1,0 +1,19 @@
+.card-custom {
+    border: 1px solid #dedede;
+    border-radius: 10px;
+}
+.card-header-custom {
+    background-color: #518d4f;
+    color: white;
+    padding: 10px;
+    border-bottom: 1px solid #dedede;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.btn-custom {
+    background-color: #198754;
+    color: white;
+}
+.btn-custom:hover {
+    background-color: #157347;
+}
